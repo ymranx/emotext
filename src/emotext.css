@@ -1,0 +1,41 @@
+.emotext-input-box {
+  padding: 5px;
+  background: #fff;
+  height: 20px;
+  overflow: hidden;
+}
+
+.emotext-input-box:: focus {
+  outline: none;
+}
+
+.emotext-input-box:: active {
+  outline: none;
+}
+
+.emotext-text-log {
+  padding: 10px;
+  margin: 0;
+
+}
+
+.emotext-text-log li {
+  list-style-type: none;
+  padding: 10px;
+  background-color: #D1C4E9;
+  margin: 10px 0;
+  word-break: break-word;
+  color: #fff;
+  font-size: 14px;
+  transition: 1s ease all;
+  opacity: 0.2;
+}
+
+.emotext-text-log li.animate {
+  opacity: 1;
+}
+
+img.emotext-img {
+  width: 20px;
+  vertical-align: middle;
+}
