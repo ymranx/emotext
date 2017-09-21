@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+  body {
+  	background-color: #eee;
+  }
+  	#app {
+  		width: 60%;
+  		min-width: 400px;
+  		min-height: 200px;
+  		margin: 20px auto;
+  	}
+  </style>
+  <link rel="stylesheet" type="text/css" href="./src/emotext.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Emotext Demo</title>
+</head>
+<body>
+	<main id="app"> </main>
+	<script type="text/javascript" src="./src/emotext.js"></script>
+</body>
+<script type="text/javascript">
+	var $app = document.getElementById("app");
+	new Emotext($app);
+</script>
+</html>

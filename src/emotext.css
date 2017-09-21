@@ -1,8 +1,10 @@
 .emotext-input-box {
-  padding: 5px;
+  padding: 15px;
   background: #fff;
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.1);
   height: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .emotext-input-box:: focus {
@@ -21,13 +23,14 @@
 
 .emotext-text-log li {
   list-style-type: none;
-  padding: 10px;
+  padding: 15px 10px;
   background-color: #D1C4E9;
   margin: 10px 0;
-  word-break: break-word;
+  word-wrap: break-word;
   color: #fff;
   font-size: 14px;
   transition: 1s ease all;
+  border-radius: 20px;
   opacity: 0.2;
 }
 
